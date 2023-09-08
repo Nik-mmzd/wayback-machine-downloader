@@ -1,6 +1,6 @@
 # Note
-This README is from OG project. To install forked version use Docker: `docker pull ghcr.io/nik-mmzd/wayback-machine-downloader:latest`
-This fork includes patches from OG project PRs
+This README is from OG project. To install forked version use following Docker image: `ghcr.io/nik-mmzd/wayback-machine-downloader:latest`.  
+This fork includes patches from OG project PRs (see commit messages)
 
 # Wayback Machine Downloader
 
