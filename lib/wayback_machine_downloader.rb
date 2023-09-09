@@ -247,6 +247,10 @@ class WaybackMachineDownloader
     current_encoding = "".encoding
     file_url = file_remote_info[:file_url].encode(current_encoding)
     file_id = file_remote_info[:file_id]
+    if nile_id.nil?
+      puts "Malformed file url, skipping: #{file_url}"
+      return
+    end
     file_timestamp = file_remote_info[:timestamp]
     file_path_elements = file_id.split('/')
     if file_id == ""
